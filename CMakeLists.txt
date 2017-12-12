@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( DIP4_2014CSB1001_AakarshanGupta )
+find_package( OpenCV REQUIRED )
+add_executable( DIP4_2014CSB1001_AakarshanGupta DIP4_2014CSB1001_AakarshanGupta.cpp )
+target_link_libraries( DIP4_2014CSB1001_AakarshanGupta ${OpenCV_LIBS})
